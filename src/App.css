@@ -1,0 +1,6 @@
+.expenses-header {
+    font-size: 64px;
+    font-weight: bold;
+    border-bottom: 1px solid black;
+    padding: 8px 16px;
+}

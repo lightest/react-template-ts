@@ -1,0 +1,15 @@
+.expenses-table {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 8px;
+}
+
+.expenses-table .expense-row {
+    display: contents;
+}
+
+.expense-row.header {
+    font-size: 24px;
+    font-weight: bold;
+    text-transform: capitalize;
+}
