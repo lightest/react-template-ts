@@ -27,7 +27,7 @@ function processExpensesData(expensesData: Array<iExpense>): Array<iExpense>
 
 function App()
 {
-    const [ expenses, setExpenses ] = useState([]);
+    const [ expenses, setExpenses ] = useState<iExpense[]>([]);
 
     useEffect(() =>
     {
